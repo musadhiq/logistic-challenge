@@ -1,2 +1,3 @@
 *.pdf
-./Templates
+Templates/
+.DS_Store
