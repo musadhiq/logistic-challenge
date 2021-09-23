@@ -49,3 +49,26 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  #overview {
+    .overview-container {
+      flex-direction: column-reverse;
+      text-align: center;
+      .left {
+        height: 350px;
+        width: 100%;
+        img {
+          width: 400px;
+          right: 30px;
+        }
+      }
+      .right {
+        margin-left: 0px;
+        width: 100%;
+        p.des {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
