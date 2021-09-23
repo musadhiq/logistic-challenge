@@ -52,21 +52,22 @@
 @media screen and (max-width: 768px) {
   #overview {
     .overview-container {
-      flex-direction: column-reverse;
-      text-align: center;
       .left {
-        height: 350px;
-        width: 100%;
+        height: 300px;
         img {
-          width: 400px;
-          right: 30px;
+          width: 300px;
+          right: 50px;
         }
       }
-      .right {
-        margin-left: 0px;
-        width: 100%;
-        p.des {
-          margin: 0 auto;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  #overview {
+    .overview-container {
+      .left {
+        img {
+          right: 0px;
         }
       }
     }

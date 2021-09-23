@@ -29,6 +29,7 @@
         left: 20px;
       }
       .card-bottom {
+        justify-content: space-between;
         border-top: none;
         padding-top: 10px;
         .rating {
@@ -49,6 +50,9 @@
   #testimonial {
     .cards {
       gap: 50px;
+      .card {
+        margin: 0 auto;
+      }
     }
   }
 }

@@ -65,3 +65,9 @@ a.button {
 @import "./sass/work";
 // footer
 @import "./sass/footer";
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding: 0 30px;
+  }
+}
