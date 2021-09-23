@@ -1,0 +1,51 @@
+#overview {
+  background-image: url("../../Assets/images/background\ -\ R.png");
+  background-position-x: 750px;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  .overview-container {
+    // flex-wrap: wrap;
+    .left {
+      width: 600px;
+      height: 600px;
+      position: relative;
+      img {
+        width: 500px;
+        position: absolute;
+        top: 100px;
+        right: 50px;
+      }
+    }
+    .right {
+      margin-left: 100px;
+      width: 600px;
+
+      h1.head {
+        font-family: poppins-semibold;
+      }
+      p.des {
+        max-width: 450px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 950px) {
+  #overview {
+    .overview-container {
+      flex-direction: column-reverse;
+      text-align: center;
+      .left {
+        height: 450px;
+        width: 100%;
+      }
+      .right {
+        margin-left: 0px;
+        width: 100%;
+        p.des {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

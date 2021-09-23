@@ -1,0 +1,89 @@
+#work {
+  margin-top: 100px;
+  .work {
+    background-image: url("../../Assets/images/background\ -\ work\ for\ us.png");
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    .header {
+      h1.head {
+        font-family: poppins-semibold;
+      }
+      p.des {
+        margin: 0 auto;
+        max-width: 750px;
+        font-family: poppins-semibold;
+      }
+    }
+    form {
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      button {
+        background: $black;
+        color: #fff;
+        padding: 18px 45px;
+        border-radius: 10px;
+      }
+    }
+    [type="file"] {
+      height: 0;
+      overflow: hidden;
+      width: 0;
+    }
+
+    [type="file"] + label {
+      background: #f15d22;
+      border: none;
+      border-radius: 5px;
+      color: $blackfade;
+      cursor: pointer;
+      display: inline-block;
+      font-size: inherit;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      outline: none;
+      padding: 20px 50px;
+      position: relative;
+      transition: all 0.3s;
+      vertical-align: middle;
+      text-align: left;
+
+      &:hover {
+        background-color: darken(#f15d22, 10%);
+      }
+
+      &.btn-2 {
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 10px;
+        width: 500px;
+        overflow: hidden;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          display: block;
+          background-image: url("../../Assets/images/Icon\ feather-upload.svg");
+          background-repeat: no-repeat;
+          width: 22px;
+          height: 25px;
+          right: 40px;
+          top: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 848px) {
+  #work {
+    .work {
+      [type="file"] + label {
+        &.btn-2 {
+          width: 300px;
+        }
+      }
+    }
+  }
+}

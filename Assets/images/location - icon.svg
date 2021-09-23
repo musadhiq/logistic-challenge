@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="52.004" viewBox="0 0 40 52.004">
+  <defs>
+    <filter id="Ellipse_696" x="6" y="24.004" width="28" height="28" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.212"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="map" x="0" y="0" width="40" height="48.004" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="location_-_icon" data-name="location - icon" transform="translate(-517.5 -3151.496)">
+    <g transform="matrix(1, 0, 0, 1, 517.5, 3151.5)" filter="url(#Ellipse_696)">
+      <g id="Ellipse_696-2" data-name="Ellipse 696" transform="translate(13.5 24.5)" fill="#fff" stroke="#ff8210" stroke-width="3">
+        <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+        <circle cx="6.5" cy="6.5" r="5" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 517.5, 3151.5)" filter="url(#map)">
+      <path id="map-2" data-name="map" d="M16,1A11,11,0,0,0,5,12c0,5.81,9.8,18.1,10.22,18.63a1,1,0,0,0,1.56,0C17.2,30.1,27,17.81,27,12A11,11,0,0,0,16,1Zm0,14a4,4,0,1,1,4-4A4,4,0,0,1,16,15Z" transform="translate(4)" fill="#f17a0f"/>
+    </g>
+  </g>
+</svg>

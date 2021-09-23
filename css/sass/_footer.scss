@@ -1,0 +1,47 @@
+footer {
+  margin-top: 100px;
+  .container {
+    .row {
+      h6.logo {
+        img {
+          width: 50px;
+        }
+      }
+      .res {
+        .social {
+          gap: 15px;
+          p {
+            background-color: $yellow;
+            padding: 15px;
+            border-radius: 50%;
+            cursor: pointer;
+
+            img {
+              width: 20px;
+            }
+          }
+          .fb-c {
+            padding: 15px 20px;
+            img.fb {
+              width: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    .container {
+      .row {
+        .res {
+          .social {
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

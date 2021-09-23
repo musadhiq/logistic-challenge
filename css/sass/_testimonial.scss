@@ -1,0 +1,54 @@
+#testimonial {
+  background-image: url("../../Assets/images/background\ -\ thoran.png");
+  background-position-x: -370px;
+  background-position-y: -200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 50px;
+  .header {
+    h1.head {
+      font-family: poppins-semibold;
+    }
+  }
+  .cards {
+    margin-top: 100px;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .card {
+      position: relative;
+      width: 350px;
+      border: none;
+      background: none;
+      border-radius: 10px;
+      img.top {
+        width: 60px;
+        border-radius: 50%;
+        position: absolute;
+        top: -10%;
+        left: 20px;
+      }
+      .card-bottom {
+        border-top: none;
+        padding-top: 10px;
+        .rating {
+          gap: 5px;
+        }
+      }
+      &:hover {
+        background: #fff;
+        box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.301);
+        .card-bottom {
+          border-top: 1px solid rgba(0, 0, 0, 0.096);
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  #testimonial {
+    .cards {
+      gap: 50px;
+    }
+  }
+}

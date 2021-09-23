@@ -1,0 +1,105 @@
+#spotlight {
+  background-image: url("../../Assets/images/backgroundspotlight.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  .container1 {
+    justify-content: space-between;
+    gap: 30px;
+    .left {
+      margin-top: 20px;
+      width: 600px;
+      h1.head {
+        font-size: 58px;
+        font-family: poppins-semibold;
+      }
+      p.des {
+        max-width: 400px;
+        font-size: 18px;
+      }
+    }
+    .right {
+      background-image: url("../Assets/images/spotlight\ -\ image\ -\ 01.png");
+      background-position: center right;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      width: 650px;
+      height: 500px;
+      .small {
+        width: 50%;
+        position: absolute;
+        top: 70px;
+        left: -90px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1020px) {
+  #spotlight {
+    .container1 {
+      .right {
+        .small {
+          top: 100px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 960px) {
+  #spotlight {
+    .container1 {
+      .left {
+        width: 700px;
+      }
+      .right {
+        .small {
+          top: 120px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 868px) {
+  #spotlight {
+    .container1 {
+      .right {
+        .small {
+          top: 150px;
+          left: -70px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  #spotlight {
+    .container1 {
+      .left {
+        h1.head {
+          font-size: 44px;
+        }
+      }
+      .right {
+        .small {
+          top: 180px;
+          left: -60px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 628px) {
+  #spotlight {
+    .container1 {
+      .left {
+        h1.head {
+          font-size: 44px;
+        }
+      }
+      .right {
+        display: none;
+      }
+    }
+  }
+}

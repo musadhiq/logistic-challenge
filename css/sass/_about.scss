@@ -1,0 +1,38 @@
+#about {
+  background-image: url("../../Assets/images/background\ -\ R.png");
+  background-position-x: -70px;
+  background-position-y: 11px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  .about-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .left {
+      height: 600px;
+
+      position: relative;
+      img {
+        width: 450px;
+      }
+    }
+    .right {
+      h1.head {
+        font-family: poppins-semibold;
+      }
+      p.des {
+        max-width: 400px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 950px) {
+  #about {
+    margin-bottom: 100px;
+    .about-container {
+      text-align: center;
+      .left {
+        height: 300px;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+#services {
+  .header {
+    h1.head {
+      font-family: poppins-semibold;
+    }
+    p.des {
+      margin: 0 auto;
+      max-width: 700px;
+    }
+  }
+  .services {
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 80px;
+    cursor: pointer;
+    .service {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 30px;
+      border-radius: 10px;
+      img {
+        width: 50px;
+      }
+      .content {
+        h4 {
+          font-family: poppins-semibold;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+      &:hover,
+      &:active {
+        border: none;
+        box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.192);
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a.button {
+      margin: 0 auto;
+    }
+  }
+}

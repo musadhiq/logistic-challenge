@@ -1,0 +1,67 @@
+@import "./sass/req";
+
+//
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: poppins-regular, sans-serif;
+  background-color: #fdfcf633;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $black;
+}
+span {
+  color: $orange;
+}
+ul,
+ol {
+  list-style: none;
+}
+.wrapper {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+p,
+small {
+  color: $blackfade;
+}
+img {
+  width: 100%;
+  display: block;
+}
+a.button {
+  display: inline-block;
+  background-color: $yellow;
+  color: $black;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-family: poppins-semibold, sans-serif;
+  box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.301);
+}
+// header section
+@import "./sass/header";
+// potlight
+@import "./sass/spotlight";
+// about
+@import "./sass/about";
+// services
+@import "./sass/services";
+// overview
+@import "./sass/overview";
+// location
+@import "./sass/location";
+// testimonial
+@import "./sass/testimonial";
+// work
+@import "./sass/work";
+// footer
+@import "./sass/footer";
