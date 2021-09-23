@@ -80,8 +80,20 @@
   #work {
     .work {
       [type="file"] + label {
+        font-size: 12px;
         &.btn-2 {
           width: 300px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  #work {
+    .work {
+      [type="file"] + label {
+        &.btn-2 {
+          width: 250px;
         }
       }
     }

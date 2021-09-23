@@ -135,7 +135,7 @@
         }
         &:nth-child(3) {
           top: 30px;
-          left: 90px;
+          left: 50px;
         }
         &:nth-child(4) {
           display: none;
@@ -148,27 +148,11 @@
         }
         &:nth-child(7) {
           top: 20px;
-          right: 90px;
+          right: 50px;
         }
         &:nth-child(8) {
           top: 100px;
           right: 100px;
-        }
-        .dtls {
-          text-align: center;
-          margin-left: -40px;
-          background: #fff;
-          width: 100px;
-          border-radius: 10px;
-          box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.795);
-          span {
-            font-size: small;
-          }
-          small {
-            font-size: 12px;
-            color: $blackfade;
-            padding: 0%;
-          }
         }
       }
     }

@@ -14,10 +14,13 @@
     margin-top: 80px;
     cursor: pointer;
     .service {
+      width: 450px;
+      height: 180px;
       flex-direction: row;
       align-items: flex-start;
       gap: 30px;
       border-radius: 10px;
+      overflow: hidden;
       img {
         width: 50px;
       }
@@ -42,6 +45,40 @@
     align-items: center;
     a.button {
       margin: 0 auto;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  #services {
+    .header {
+      h1.head {
+        font-family: poppins-semibold;
+      }
+      p.des {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+    }
+    .services {
+      flex-wrap: wrap;
+      gap: 50px;
+      margin-top: 80px;
+      cursor: pointer;
+      .service {
+        width: 400px;
+        height: 190px;
+        img {
+          width: 40px;
+        }
+        .content {
+          h4 {
+            font-size: 18px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
 }
